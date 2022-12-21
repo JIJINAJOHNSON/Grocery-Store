@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online grocery Webite</title>
+    <link rel="stylesheet" href="grocery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script defer src="grocery.js"></script>
+</head>
+<body>
+    <!---Header section starts-->
+
+    <header>
+        <div class="header-1">
+            <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>grocery</a>
+            <form action="" class="search-box-container">
+                <input type="search" id="search-box" placeholder="search here....">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+        </div>
+
+        <div class="header-2">
+
+            <div class="fas fa-bars" id="menu-bar"></div>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#category">Category</a>
+                <a href="#product">Product</a>
+                <a href="#deal">Deal</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-user-circle"></a>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!---Header section ends-->
+
+    <!---Home section starts-->
+
+    <section class="home" id="home">
+        <div class="image">
+            <img src="vegetables_files/heart.jpg" alt="">
+
+        </div>
+
+        <div class="content">
+            <span>fresh and organic </span>
+            <h3>Your daily need products</h3>
+            <a href="#" class="btn">get started</a>
+            
+        </div>
+    </section>
+    <!---Home section ends-->
+
+     <!---Banner section starts-->
+
+     <section class="banner-container">
+        <div class="banner">
+            <img src="fruits/carrot.jpg" alt="">
+            <div class="content">
+                <h3>Special Offer</h3>
+                <span>Upto 45% Off</span>
+                <a href="#" class="btn">Check Out</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="fruits/cucumber.jpg" alt="">
+            <div class="content">
+                <h3>Limited Offer</h3>
+                <span>Upto 50% Off</span>
+                <a href="#" class="btn">Check Out</a>
+            </div>
+        </div>
+     </section>
+
+     <!---Banner section ends-->
+
+     <!---Category section starts-->
+
+     <section class="category" id="category">
+        <h1 class="heading">Shop by <span>Category</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <h3>Vegetables</h3>
+                <p>Upto 50% Off</p>
+                <img src="vege.jpg" alt="">
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+
+            <div class="box">
+                <h3>Juices</h3>
+                <p>Upto 50% Off</p>
+                <img src="juices.jpg" alt="">
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+
+            <div class="box">
+                <h3>Milk</h3>
+                <p>Upto 50% Off</p>
+                <img src="milk.jpg" alt="">
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+
+
+            <div class="box">
+                <h3>Meat</h3>
+                <p>Upto 50% Off</p>
+                <img src="meat.jpg" alt="">
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+
+            <div class="box">
+                <h3>Fruits</h3>
+                <p>Upto 50% Off</p>
+                <img src="fru.jpg" alt="">
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="box">
+                <h3>Nuts</h3>
+                <p>Upto 560% Off</p>
+                <img src="nuts.jpg" alt="">
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+
+            <div class="box">
+                <h3>Dry Fruits</h3>
+                <p>Upto 45% Off</p>
+                <img src="dry fruits.jpg" alt="">
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </div>
+     </section>
+
+     <!---Category section ends-->
+
+     <!---Product section starts-->
+
+     <section class="product" id="product">
+        <h1 class="heading">Latest <span>Products</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <span class="discount">-33%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="fruits/banana.jpg" alt="">
+                <h3>Organic Banana</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> $ 10.50 <span> $ 13.20</span></div>
+                <div class="quantity">
+                    <span>Quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="#" class="btn">Add to Cart</a>
+
+            </div>
+
+            <div class="box">
+                <span class="discount">-45%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="fruits/tomato.jpg" alt="">
+                <h3>Organic Tomato</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> $ 10.50 <span> $ 13.20</span></div>
+                <div class="quantity">
+                    <span>Quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="#" class="btn">Add to Cart</a>
+
+            </div>
+
+            <div class="box">
+                <span class="discount">-52%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="fruits/orange.jpg" alt="">
+                <h3>Organic Orange</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> $ 10.50 <span> $ 13.20</span></div>
+                <div class="quantity">
+                    <span>Quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="#" class="btn">Add to Cart</a>
+
+            </div>
+
+            <div class="box">
+                <span class="discount">-13%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="milk pack.jpg" alt="">
+                <h3>Natural Milk</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> $ 10.50 <span> $ 13.20</span></div>
+                <div class="quantity">
+                    <span>Quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="#" class="btn">Add to Cart</a>
+
+            </div>
+
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="fruits/kiwi.jpg" alt="">
+                <h3>Organic Kiwi</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> $ 10.50 <span> $ 13.20</span></div>
+                <div class="quantity">
+                    <span>Quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="#" class="btn">Add to Cart</a>
+
+            </div>
+
+            <div class="box">
+                <span class="discount">-25%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="apple.jpg" alt="">
+                <h3>Organic Apple</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> $ 10.50 <span> $ 13.20</span></div>
+                <div class="quantity">
+                    <span>Quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="#" class="btn">Add to Cart</a>
+
+            </div>
+
+            <div class="box">
+                <span class="discount">-30%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="almond.jpg" alt="">
+                <h3>Organic Almond</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> $ 10.50 <span> $ 13.20</span></div>
+                <div class="quantity">
+                    <span>Quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="#" class="btn">Add to Cart</a>
+
+            </div>
+
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="fruits/coconut.jpg" alt="">
+                <h3>Organic Coconut</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> $ 10.50 <span> $ 13.20</span></div>
+                <div class="quantity">
+                    <span>Quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="#" class="btn">Add to Cart</a>
+
+            </div>
+
+            <div class="box">
+                <span class="discount">-40%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="fruits/custard apple.jpg" alt="">
+                <h3>Organic Custard Apple</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> $ 10.50 <span> $ 13.20</span></div>
+                <div class="quantity">
+                    <span>Quantity : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span> /kg </span>
+                </div>
+                <a href="#" class="btn">Add to Cart</a>
+
+            </div>
+        </div>
+     </section>
+     <!---Product section ends-->
+
+     <!---Deal section starts-->
+     <section class="deal" id="deal">
+        <div class="content">
+            <h3 class="title">Deal of the day</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto maxime repellat eius voluptas 
+                aliquid exercitationem iusto expedita,
+                 consectetur non vel itaque magni! Dolores dolor natus unde assumenda cumque. Porro, sed!</p>
+                 <div class="count-down">
+                    <div class="box">
+                        <h3 id="day">00</h3>
+                        <span>Day</span>
+                    </div>
+
+                    <div class="box">
+                        <h3 id="hours">00</h3>
+                        <span>Hours</span>
+                    </div>
+
+                    <div class="box">
+                        <h3 id="minutes">00</h3>
+                        <span>Minutes</span>
+                    </div>
+
+                    <div class="box">
+                        <h3 id="seconds">00</h3>
+                        <span>Seconds</span>
+                    </div>
+                 </div>
+        </div>
+     </section>
+
+     <!---Deal section ends-->
+
+     <!---Contact section starts-->
+
+     <section class="contact" id="contact">
+        <h1 class="heading"><span>Contact</span> Us</h1>
+        <form action="">
+        <div class="inputBox">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+
+        </div>
+
+        <div class="inputBox">
+            <input type="number" placeholder="Number">
+            <input type="text" placeholder="Subject">
+
+        </div>
+
+        <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" class="btn" value="Send message">
+        </form>
+     </section>
+
+     <!---Contact section ends-->
+
+     <!---Newsletter section starts-->
+
+     <section class="newsletter">
+        <h3>Subscribe us for latest updates</h3>
+        <form action="">
+            <input type="email" class="box" placeholder="Enter your name">
+            <input type="submit" class="btn" value="Subscribe">
+        </form>
+     </section>
+
+     <!---Newsletter- section ends-->
+
+
+      <!---footer section starts-->
+
+      <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>Grocery</a>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis modi laudantium 
+                    est delectus soluta error ratione, saepe sed similique. 
+                    Repellat vero necessitatibus error. Natus porro, illo
+                     necessitatibus corrupti delectus laborum.</p>
+                    
+                <div class="share">
+                    <a href="#" class="btn fab fa-facebook-f"></a>
+                    <a href="#" class="btn fab fa-twitter"></a>
+                    <a href="#" class="btn fab fa-instagram"></a>
+                    <a href="#" class="btn fab fa-linkedin"></a>   
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Our Locations</h3>
+                <div class="links">
+                    <a href="#">India</a>
+                    <a href="#">USA</a>
+                    <a href="#">France</a>
+                    <a href="#">Japan</a>
+                    <a href="#">Russia</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <div class="links">
+                    <a href="#">Home</a>
+                    <a href="#">Category</a>
+                    <a href="#">Product</a>
+                    <a href="#">Deal</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Download App</h3>
+                <div class="links">
+                    <a href="#">Google Play</a>
+                    <a href="#">Window XP</a>
+                    <a href="#">App Store</a>
+                    
+                </div>
+            </div>
+        </div>
+
+        <h1 class="credit">Created by <span> J Web Design </span> all rights reserved!</h1>
+      </section>
+
+      <!---footer- section ends-->
+</body>
+</html>
